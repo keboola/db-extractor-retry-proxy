@@ -18,6 +18,11 @@
             "email": "ondra.jodas@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Keboola\\DbExtractor\\": "src/"
+        }
+    },
     "minimum-stability": "stable",
     "scripts": {
         "tests": "./vendor/bin/phpunit",
