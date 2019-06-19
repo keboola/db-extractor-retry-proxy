@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Keboola\\DbExtractor\\": "src/"
+            "Keboola\\DbExtractorRetryProxy\\": "src/"
         }
     },
     "minimum-stability": "stable",

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Keboola\DbExtractor;
+namespace Keboola\DbExtractorRetryProxy;
 
 use Keboola\DbExtractorLogger\Logger;
 use Retry\Policy\RetryPolicyInterface;
