@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Keboola\DbExtractor;
 
-use Keboola\DbExtractor\Logger\Logger;
+use Keboola\DbExtractorLogger\Logger;
 use Retry\Policy\RetryPolicyInterface;
 use Retry\Policy\SimpleRetryPolicy;
 use Retry\BackOff\BackOffPolicyInterface;
